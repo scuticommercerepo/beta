@@ -11,7 +11,7 @@ require('./models/models');
 var api = require('./routes/api');
 var authenticate = require('./routes/authenticate')(passport);
 var mongoose = require('mongoose');                         //add for Mongo support
-mongoose.connect('mongodb://$OPENSHIFT_MONGODB_DB_HOST:$OPENSHIFT_MONGODB_DB_PORT/mnode');              //connect to Mongo
+mongoose.connect('mongodb://localhost:27017/mnode');              //connect to Mongo
 var app = express();
 
 // view engine setup

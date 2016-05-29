@@ -1,2 +1,2 @@
-# TEMPLATE ENGINE Project
+# ScutiCommerce Marketing Cloud Project
  
